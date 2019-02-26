@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>The Game of Life</title>
+</head>
+
+<body>
+  <h1>The Game of Life</h1>
+  <h4>By John Conway</h4>
+  <p>This is a population game in which represents living and dead communities. This to make it more interesting, this
+    map is like a spherical map, meaning neighbors includes those not directly beside a cell.</p>
+
+  <p>It generates a random starting array and then carries out the 3 rules over and over.</p>
+
+  <ul>
+    <li>If a black cell has 3 white cells surrounding it, it becomes white.</li>
+    <li>If a white cell has less than 2 white cells or more than 3 white cells, it becomes black.</li>
+    <li>In all other cases, the state of a cell remains unchanged.</li>In
+  </ul>
+
+  <p>You'll notice different shapes and patterns and eventually, it will stop.</p>
+
+  <script src="../p5.min.js"></script>
+  <script src="./theGameOfLife.js"></script>
+</body>
+
+</html>
